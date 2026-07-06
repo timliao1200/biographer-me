@@ -62,7 +62,7 @@
 
 ```
 請幫我從 GitHub 安裝這個 Skill：
-https://github.com/[YOUR_USERNAME]/biographer-me
+https://github.com/timliao1200/biographer-me
 
 請 git clone 到 user scope：
 ~/.claude/skills/biographer-me/
@@ -74,7 +74,7 @@ https://github.com/[YOUR_USERNAME]/biographer-me
 
 ```bash
 git clone --depth 1 \
-  https://github.com/[YOUR_USERNAME]/biographer-me.git \
+  https://github.com/timliao1200/biographer-me.git \
   ~/.claude/skills/biographer-me
 ```
 
@@ -158,8 +158,15 @@ biographer-me/
 
 ## Related Skills
 
+- **[`biographer-me-lite`](https://github.com/timliao1200/biographer-me-lite)** — 10 分鐘體驗版 · Firelight 火光 · 挖一個瞬間寫成散文
 - **`biographer-them`**（規劃中）— 幫你寫另一個人的傳記（例如：兒子想幫父親寫）
+- **`biographer-them-lite`**（規劃中）— 他傳體驗版
 - **`nuwa-skill`**（by [@alchaincyf](https://github.com/alchaincyf/nuwa-skill)）— 蒸餾任何真實人物成一個 perspective skill
+
+### Try Firelight First
+
+如果你**還沒準備好**花 3 小時走深度版——先試試 [Firelight](https://github.com/timliao1200/biographer-me-lite)。
+10 分鐘挖一個瞬間，寫成一段可以分享的散文。走完自然會知道要不要繼續深度版。
 
 ---
 
@@ -183,8 +190,10 @@ MIT License. See `LICENSE`.
 Made with 🕯️ by [Tim Liao](https://github.com/timliao1200)（廖敬提）
 
 Part of the **Fireside Biographer** family:
-- 壁爐邊 · 我這一生（`biographer-me`）— 你在這裡
+- **壁爐邊 · 我這一生（`biographer-me`）— 你在這裡（深度版）** 🕯️
+- [壁爐邊 · 火光（`biographer-me-lite`）— 10 分鐘體驗版](https://github.com/timliao1200/biographer-me-lite) ⚡
 - 壁爐邊 · 你眼中的他（`biographer-them`）— coming soon
+- 壁爐邊 · 你眼中的他 · 火光（`biographer-them-lite`）— coming soon
 
 ---
 
