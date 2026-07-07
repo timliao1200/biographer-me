@@ -193,7 +193,7 @@ Part of the **Fireside Biographer** family:
 - **壁爐邊 · 我這一生（`biographer-me`）— 你在這裡（自傳深度版）** 🕯️
 - [壁爐邊 · 火光（`biographer-me-lite`）— 自傳體驗版 10 分鐘](https://github.com/timliao1200/biographer-me-lite) ⚡
 - [壁爐邊 · 你眼中的他（`biographer-them`）— 他傳深度版](https://github.com/timliao1200/biographer-them) 🕯️
-- 壁爐邊 · 你眼中的他 · 火光（`biographer-them-lite`）— coming soon
+- [壁爐邊 · 你眼中的他 · 火光（`biographer-them-lite`）— 他傳體驗版](https://github.com/timliao1200/biographer-them-lite) ⚡
 
 ---
 
