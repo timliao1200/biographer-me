@@ -54,29 +54,68 @@
 
 ---
 
-## Installation
+## Installation · Works With Any AI Agent
 
-### Option 1 · 讓你的 Claude 幫你安裝（推薦）
+### Universal Install（推薦 · 適用所有 AI Agent）
 
-打開 Claude Code，貼這段：
+打開你的 AI Agent（**Claude Code、Codex、或其他**），貼這段：
 
 ```
 請幫我從 GitHub 安裝這個 Skill：
 https://github.com/timliao1200/biographer-me
 
-請 git clone 到 user scope：
-~/.claude/skills/biographer-me/
+無論你是 Claude Code、Codex 還是其他 AI Agent，請按以下步驟：
 
-裝好後告訴我怎麼觸發它。
+1. 找到你自己的 skills 目錄位置
+   （Claude Code 通常在 ~/.claude/skills/；
+    Codex 通常在 ~/.codex/skills/；
+    其他 agent 依你的規範）
+
+2. 用 git clone 把 repo 抓到那個目錄
+
+3. 讀取裡面的 SKILL.md 跟 README.md，
+   如果你的 skill 系統需要不同格式（例如 JSON manifest），
+   請自動幫我轉換 —— 內容是標準 markdown + YAML frontmatter，
+   任何 AI 都能讀
+
+4. 驗證你能觸發它
+
+5. 完成後告訴我：
+   - 它裝在哪裡了
+   - 我可以怎麼觸發它（用你 agent 的方式）
+   - 準備好之後，我們就開始使用它
 ```
 
-### Option 2 · 自己 git clone
+### Manual git clone（工程師）
+
+依你的 AI Agent 選路徑：
 
 ```bash
-git clone --depth 1 \
-  https://github.com/timliao1200/biographer-me.git \
-  ~/.claude/skills/biographer-me
+# Claude Code
+git clone --depth 1 https://github.com/timliao1200/biographer-me.git ~/.claude/skills/biographer-me
+
+# Codex
+git clone --depth 1 https://github.com/timliao1200/biographer-me.git ~/.codex/skills/biographer-me
+
+# 其他 AI Agent · 依你的 skills 目錄規範
 ```
+
+---
+
+## Compatibility · 通用性說明
+
+這個 Skill 使用 **標準 markdown + YAML frontmatter**——最開放、最通用的 skill 格式。
+
+**已知支援：**
+- ✅ Claude Code（`~/.claude/skills/`）
+- ✅ Codex by OpenAI（`~/.codex/skills/`）
+
+**理論支援（因為格式通用）：**
+- 任何能讀 markdown SKILL.md 的 AI Agent
+- 未來的 skill 系統
+- 自訂 agent 框架
+
+如果你的 agent 使用不同格式（例如 JSON manifest），請告訴你的 agent：**「請把這份 SKILL.md 轉成你需要的格式」**——大部分現代 AI 都能自動轉換。
 
 ---
 
