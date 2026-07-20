@@ -56,6 +56,12 @@
 
 ## Installation · Works With Any AI Agent
 
+### 安裝前檢查（一分鐘）
+
+- **Mac：** 打開「終端機」，輸入 `git --version`。有版本號 → OK。沒有 → 系統會跳提示裝 Command Line Tools，跟著按就對了（或直接 `xcode-select --install`）。
+- **Windows：** 打開 PowerShell，輸入 `git --version`。沒有 → 去 [git-scm.com](https://git-scm.com/download/win) 下載安裝。
+- **沒辦法裝 Git 也沒關係：** 下方 Universal Install 已內建 fallback，AI 會自動改用 ZIP 下載或一份一份抓檔案。
+
 ### Universal Install（推薦 · 適用所有 AI Agent）
 
 打開你的 AI Agent（**Claude Code、Codex、或其他**），貼這段：
@@ -71,12 +77,16 @@ https://github.com/timliao1200/biographer-me
     Codex 通常在 ~/.codex/skills/；
     其他 agent 依你的規範）
 
-2. 用 git clone 把 repo 抓到那個目錄
+2. 嘗試安裝——按這個順序試：
+   (a) 優先：用 git clone
+   (b) 如果本機沒有 git：用 curl 或 wget 下載 ZIP 解壓
+       https://github.com/timliao1200/biographer-me/archive/refs/heads/main.zip
+   (c) 如果 (b) 也不行：用你的 WebFetch 從 raw.githubusercontent.com
+       把 SKILL.md、README.md 和 frameworks/ 底下所有檔案一個一個抓下來
 
-3. 讀取裡面的 SKILL.md 跟 README.md，
+3. 讀取 SKILL.md 跟 README.md，
    如果你的 skill 系統需要不同格式（例如 JSON manifest），
-   請自動幫我轉換 —— 內容是標準 markdown + YAML frontmatter，
-   任何 AI 都能讀
+   請自動幫我轉換 —— 內容是標準 markdown + YAML frontmatter
 
 4. 驗證你能觸發它
 
@@ -84,6 +94,11 @@ https://github.com/timliao1200/biographer-me
    - 它裝在哪裡了
    - 我可以怎麼觸發它（用你 agent 的方式）
    - 準備好之後，我們就開始使用它
+
+6. 如果三種安裝方式都失敗，明確告訴我：
+   - 你試了哪些方法
+   - 是什麼阻擋了你（沒 git、網路擋 HTTPS、還是別的）
+   - 我需要做什麼手動動作（例如安裝 Git、關掉 VPN）
 ```
 
 ### Manual git clone（工程師）
