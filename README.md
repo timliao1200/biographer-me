@@ -197,15 +197,8 @@ biographer-me/
 
 ## Related Skills
 
-- **[`biographer-me-lite`](https://github.com/timliao1200/biographer-me-lite)** — 10 分鐘體驗版 · Firelight 火光 · 挖一個瞬間寫成散文
 - **[`biographer-them`](https://github.com/timliao1200/biographer-them)** — 他傳深度版 · 幫你寫另一個人的傳記（父母、伴侶、恩師），B1 記憶路徑 + B2 訪談腳本雙路徑
-- **`biographer-them-lite`**（規劃中）— 他傳體驗版
 - **`nuwa-skill`**（by [@alchaincyf](https://github.com/alchaincyf/nuwa-skill)）— 蒸餾任何真實人物成一個 perspective skill
-
-### Try Firelight First
-
-如果你**還沒準備好**花 3 小時走深度版——先試試 [Firelight](https://github.com/timliao1200/biographer-me-lite)。
-10 分鐘挖一個瞬間，寫成一段可以分享的散文。走完自然會知道要不要繼續深度版。
 
 ---
 
@@ -229,10 +222,8 @@ MIT License. See `LICENSE`.
 Made with 🕯️ by [Tim Liao](https://github.com/timliao1200)（廖敬提）
 
 Part of the **Fireside Biographer** family:
-- **壁爐邊 · 我這一生（`biographer-me`）— 你在這裡（自傳深度版）** 🕯️
-- [壁爐邊 · 火光（`biographer-me-lite`）— 自傳體驗版 10 分鐘](https://github.com/timliao1200/biographer-me-lite) ⚡
-- [壁爐邊 · 你眼中的他（`biographer-them`）— 他傳深度版](https://github.com/timliao1200/biographer-them) 🕯️
-- [壁爐邊 · 你眼中的他 · 火光（`biographer-them-lite`）— 他傳體驗版](https://github.com/timliao1200/biographer-them-lite) ⚡
+- **壁爐邊 · 我這一生（`biographer-me`）— 你在這裡（自傳版）** 🕯️
+- [壁爐邊 · 你眼中的他（`biographer-them`）— 他傳版（B1/B2 雙路徑）](https://github.com/timliao1200/biographer-them) 🕯️
 
 ---
 
